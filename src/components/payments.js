@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/payments.css";
-import Himg from "../assets/Group 222.png";
+import  Payimg from "../assets/Group 236.png";
+import Carousel from "./carousel";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -23,7 +24,7 @@ export default function Payments() {
             <p className="mt-3 mb-4 max-w-md mx-auto text-lg text-white sm:text-xl md:mt-5 md:max-w-3xl">
               we offer you a wide range of options
             </p>
-            <div class="relative text-gray-600">
+            <div class="relative text-gray-600 mb-10">
               <input
                 type="search"
                 name="serch"
@@ -50,12 +51,13 @@ export default function Payments() {
                 </svg>
               </button>
             </div>
+            <Carousel/>
           </div>
         </div>
-        <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full Pay-cont">
           <img
-            className="absolute inset-0  mt-32 object-cover H-img"
-            src={Himg}
+            className="absolute inset-0  mt-20 object-cover Pay-img"
+            src={Payimg}
             alt=""
           />
         </div>

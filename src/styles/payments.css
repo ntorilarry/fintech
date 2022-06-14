@@ -4,3 +4,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.Pay-cont{
+    direction: rtl;
+}
+.Pay-img{
+    width: 45rem;
+}
+@media (max-width: 1023px) {
+    .Pay-img{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
