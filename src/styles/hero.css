@@ -1,0 +1,15 @@
+.bground{
+    background-image: url('../assets/bground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1023px) {
+    .H-img{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
