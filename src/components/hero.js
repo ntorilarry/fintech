@@ -15,11 +15,11 @@ export default function Hero() {
     <div className="relative  bground">
       <Popover className="relative  ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+          <div className="flex justify-between items-center  md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <img className="h-8 w-auto sm:h-16" src={Logo} alt="" />
+                <img className="" src={Logo} alt="" />
               </a>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
@@ -166,15 +166,15 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <div className="relative w-full h-80 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
           <img
-            className="absolute inset-0  mt-16 object-cover H-img"
+            className="absolute inset-0  object-cover H-img"
             src={Himg}
             alt=""
           />
         </div>
         <div className="bg-[#1b1464]">
-          <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
@@ -211,7 +211,6 @@ export default function Hero() {
                   alt="Workcation"
                 />
               </div>
-              
             </div>
           </div>
         </div>
