@@ -12,6 +12,7 @@
 }
 @media (max-width: 1023px) {
     .Pay-img{
+        width: 25rem;
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
