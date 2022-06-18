@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/payments.css";
 import  Payimg from "../assets/Group 236.png";
-import Carousel from "./carousel";
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
