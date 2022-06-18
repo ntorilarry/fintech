@@ -4,7 +4,7 @@ import Circle from "../assets/circle.png";
 function Churches() {
   return (
     <div>
-      <div className="relative pt-16 pb-32 overflow-hidden">
+      <div className="relative pt-16 pb-32 overflow-hidden" id="churches">
         <div
           aria-hidden="true"
           className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"
@@ -17,15 +17,36 @@ function Churches() {
             <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
               <div>
                 <div className="mt-6">
-                  <h2 className="text-4xl font-light tracking-tight text-[#1B1464]">
+                  <h2
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="50"
+                    data-aos-once="true"
+                    className="text-4xl font-light tracking-tight text-[#1B1464]"
+                  >
                     Church Management System
                   </h2>
-                  <p className="mt-4 text-lg text-[#1B1464]">
+                  <p
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-once="true"
+                    className="mt-4 text-lg text-[#1B1464]"
+                  >
                     Your all-in-one church management software. A reliable
                     church management software is essential for any growing
                     church.
                   </p>
-                  <div className="mt-6">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="150"
+                    data-aos-once="true"
+                    className="mt-6"
+                  >
                     <a
                       href="#"
                       className="inline-flex   py-2  text-base font-medium rounded-md shadow-sm text-[#1B1464]"

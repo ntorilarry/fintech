@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/payments.css";
-import  Payimg from "../assets/Group 236.png";
-
+import Payimg from "../assets/Group 236.png";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -9,11 +8,18 @@ function classNames(...classes) {
 
 export default function Payments() {
   return (
-    <div className="relative bgroundred">
+    <div className="relative bgroundred" id="payments">
       <main className="lg:relative">
         <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-            <h1 className="text-3xl tracking-tight font-semibold text-white sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-delay="50"
+              data-aos-once="true"
+              className="text-3xl tracking-tight font-semibold text-white sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl"
+            >
               <span className="block xl:inline font-light">
                 Because payments
               </span>{" "}
@@ -21,10 +27,24 @@ export default function Payments() {
                 should be easy
               </span>
             </h1>
-            <p className="mt-3 mb-4 max-w-md mx-auto text-lg text-white sm:text-xl md:mt-5 md:max-w-3xl">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              data-aos-delay="100"
+              data-aos-once="true"
+              className="mt-3 mb-4 max-w-md mx-auto text-lg text-white sm:text-xl md:mt-5 md:max-w-3xl"
+            >
               we offer you a wide range of options
             </p>
-            <div class="relative text-gray-600 mb-10">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-out"
+              data-aos-delay="150"
+              data-aos-once="true"
+              class="relative text-gray-600 mb-10"
+            >
               <input
                 type="search"
                 name="serch"
