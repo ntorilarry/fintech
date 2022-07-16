@@ -1,1 +1,1 @@
-Live Demo link https://fluffy-sunshine-7e6e42.netlify.app/
+Live Demo link https://fintech-nsano.netlify.app/
