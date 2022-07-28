@@ -7,6 +7,7 @@ import Hero from './components/hero';
 import Manilla from './components/manilla';
 import Payments from './components/payments';
 import Testimonial from './components/testimonial';
+import Contact from './components/contactus';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
      <Churches/>
      <Api/>
      <Testimonial/>
+     <Contact/>
      <Footer/>
     </div>
   );

@@ -1,2 +1,6 @@
 *{scroll-behavior: smooth;}
 
+.app{
+    overflow-x: hidden;
+}
+

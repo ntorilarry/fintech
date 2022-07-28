@@ -6,7 +6,7 @@ import Telcos from "../assets/telcos.png";
 function Api() {
   return (
     <div>
-      <div className="relative pt-16 pb-32 overflow-hidden api-bg" id="apis">
+      <div className="relative pt-16 overflow-hidden api-bg" id="apis">
         <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 " />
         <div className="relative">
           <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
@@ -115,6 +115,30 @@ function Api() {
                   src={Telcos}
                   alt="Customer profile user interface"
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:mx-auto mt-7 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense ">
+          <div className="bg-[#E62332] px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 ">
+            <div className="p-7">
+              <div className="mt-6">
+                <p
+                  data-aos-once="true"
+                  className="mt-4 text-lg text-white font-light"
+                >
+                  We can get clients set up in minutes and we know that’s it —
+                  our payments come in on time and are automatically reconciled.
+                </p>
+                <div className="mt-6">
+                  <a
+                    href="#"
+                    className="inline-flex  bg-origin-border px-4 py-2 text-base font-bold  text-white "
+                  >
+                    Frederick Amey, Head of Finance, Nsano
+                  </a>
+                </div>
               </div>
             </div>
           </div>

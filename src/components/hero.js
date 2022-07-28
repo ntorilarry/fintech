@@ -67,12 +67,7 @@ export default function Hero() {
               >
                 Partners
               </a>
-              <a
-                href="/#payments"
-                className="text-base font-medium text-white hover:text-gray-500"
-              >
-                Payments
-              </a>
+
               <a
                 href="/#manilla"
                 className="text-base font-medium text-white hover:text-gray-500"
@@ -90,12 +85,6 @@ export default function Hero() {
                 className="text-base font-medium text-white hover:text-gray-500"
               >
                 Api's
-              </a>
-              <a
-                href="/#testimonials"
-                className="text-base font-medium text-white hover:text-gray-500"
-              >
-                Testimonials
               </a>
             </Popover.Group>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -161,12 +150,6 @@ export default function Hero() {
                     Partners
                   </a>
                   <a
-                    href="/#payments"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Payments
-                  </a>
-                  <a
                     href="/#manilla"
                     className="text-base font-medium text-gray-900 hover:text-gray-700"
                   >
@@ -183,12 +166,6 @@ export default function Hero() {
                     className="text-base font-medium text-gray-900 hover:text-gray-700"
                   >
                     Api's
-                  </a>
-                  <a
-                    href="/#testimonials"
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    Testimonials
                   </a>
                 </div>
                 <div>
